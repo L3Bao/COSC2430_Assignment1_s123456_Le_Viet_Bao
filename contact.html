@@ -1,0 +1,133 @@
+<!-- 
+    RMIT University Vietnam
+    Course: COSC2430 Web Programming
+    Semester: 2023A
+    Assessment: Assignment 1
+    Author: Le Viet Bao
+    ID: s3979654
+    Acknowledgement: 
+    https://bookshop.org/
+    https://www.youtube.com/watch?v=bk3Y4heVdFs&ab_channel=Mr.WebDesigner
+    https://www.youtube.com/watch?v=yQimoqo0-7g&t=2s&ab_channel=EasyTutorials
+    https://www.30secondsofcode.org/css/s/hover-underline-animation/
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Contact | RMIT Bookstore</title>
+</head>
+
+<body>
+    <p id="top"></p>
+    <div class="container products">
+        <nav>
+            <div class="logo">
+                <a href=""><img src="images/RMIT-bookstore-black.png" alt=""></a>
+            </div>
+
+            <input type="checkbox" id="menu-bar">
+            <label for="menu-bar">&#9776;</label>
+
+            <div class="navbar">
+                <ul>
+                    <li class="hover-underline-animation"><a href="index.html">Home</a></li>
+                    <li class="hover-underline-animation"><a href="#">Categories &#9660;</a>
+                        <ul>
+                            <li class="bounce"><a href="fiction.html">Fiction</a></li>
+                            <li class="bounce"><a href="nonfiction.html">Non-fiction</a></li>
+                            <li class="bounce"><a href="reference.html">Reference books</a></li>
+                            <li class="bounce"><a href="sale.html">Sale</a></li>
+                        </ul>
+                    </li>
+                    <li class="hover-underline-animation"><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <h1 id="categories">Contact</h1>
+    <div class="smallcontainer sml-cnt">
+        <form action="action_page.php" method="post">
+            <label for="cont_purp">Contact Purpose:</label>
+            <select id="purpose" name="purpose">
+                <option value="placeholder" selected hidden>Select your option</option>
+                <option value="sell_opt">I want to sell books</option>
+                <option value="buy_opt">I want to buy books</option>
+            </select>
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name...">
+
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+            <label for="email">Email:</label>
+            <input type="text" id="email_input" name="mail" placeholder="Your email...">
+            <label for="po_address">Post Office:</label>
+            <input type="text" id="p_office" name="p_office" placeholder="Post office address / code...">
+            <label for="phone_num">Phone Number:</label>
+            <input type="text" id="phone_num" name="phone_num" placeholder="Your phone number here...">
+
+            <p>Contact preferences:</p>
+            <input type="checkbox" id="selection1" name="selection1" value="email">
+            <label for="selection1">By email</label><br>
+            <input type="checkbox" id="selection2" name="selection2" value="phone">
+            <label for="selection2">By phone</label><br>
+            <input type="checkbox" id="selection3" name="selection3" value="Boat">
+            <label for="selection3">By letter (prefered)</label><br><br>
+
+            <label for="weekly_news">Recieve weekly news?</label><br>
+            <input type="radio" id="yes_select" name="news" value="yes" checked="checked">
+            <label for="yes">Yes</label><br>
+            <input type="radio" id="no_select" name="news" value="no">
+            <label for="no">No</label><br>
+            <br>
+
+            <label for="comment">Additional comment (Not require):</label>
+            <textarea id="comment" name="comment" style="height:200px" placeholder="Type here..."></textarea>
+
+            <input type="submit" value="Submit">
+            <input type="reset">
+        </form>
+    </div>
+    <div class="row">
+        <a href="#top" class="btn" id="button">Back to top &#8593;</a>
+    </div>
+
+    </div>
+    <footer>
+        <div class="container footer">
+            <div class="row">
+                <div class="f-col-1">
+                    <h3>Download our app</h3>
+                    <p>Download our app for android and ios mobile phone</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png" alt="">
+                        <img src="images/app-store.png" alt="">
+                    </div>
+                </div>
+                <div class="f-col-1">
+                    <h3>About RMIT</h3>
+                    <iframe width="300" height="100" src="https://www.youtube.com/embed/N7UTS7en9uY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="f-col-3">
+                    <h3>Useful links</h3>
+                    <ul>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="contact.html">Contact us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2023 - LeBao</p>
+        </div>
+    </footer>
+</body>
+<script src="scripts.js"></script>
+
+</html>

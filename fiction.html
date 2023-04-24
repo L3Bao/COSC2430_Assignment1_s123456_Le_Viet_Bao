@@ -1,0 +1,258 @@
+<!-- 
+    RMIT University Vietnam
+    Course: COSC2430 Web Programming
+    Semester: 2023A
+    Assessment: Assignment 1
+    Author: Le Viet Bao
+    ID: s3979654
+    Acknowledgement: 
+    https://bookshop.org/
+    https://www.youtube.com/watch?v=bk3Y4heVdFs&ab_channel=Mr.WebDesigner
+    https://www.youtube.com/watch?v=yQimoqo0-7g&t=2s&ab_channel=EasyTutorials
+    https://www.30secondsofcode.org/css/s/hover-underline-animation/
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Fiction | RMIT Bookstore</title>
+</head>
+
+<body>
+    <p id="top"></p>
+    <div class="container products">
+        <nav>
+            <div class="logo">
+                <a href=""><img src="images/RMIT-bookstore-black.png" alt=""></a>
+            </div>
+
+            <input type="checkbox" id="menu-bar">
+            <label for="menu-bar">&#9776;</label>
+
+            <div class="navbar">
+                <ul>
+                    <li class="hover-underline-animation"><a href="index.html">Home</a></li>
+                    <li class="hover-underline-animation"><a href="#">Categories &#9660;</a>
+                        <ul>
+                            <li class="bounce"><a href="fiction.html">Fiction</a></li>
+                            <li class="bounce"><a href="nonfiction.html">Non-fiction</a></li>
+                            <li class="bounce"><a href="">Reference books</a></li>
+                            <li class="bounce"><a href="sale.html">Sale</a></li>
+                        </ul>
+                    </li>
+                    <li class="hover-underline-animation"><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <h1 id="categories">Fiction</h1>
+    <div class="smallcontainer sml-cnt">
+        <div class="row row-2">
+            <h2 class="title title-2">Romance</h2>
+        </div>
+        <div class="row">
+            <div class="col-4 col-4">
+                <a href=""><img src="images/romance-1.jpg" alt="Pride, Prejudice, and Other Flavors"></a>
+                <H5><a href="">Pride, Prejudice, and Other Flavors</a></H5>
+                <p>Sonali Dev </p>
+                <p>$14.87</p>
+            </div>
+            <div class="col-4">
+                <a href=""><img src="images/romance-2.jpg" alt="Melt with You"></a>
+                <h5><a href="">Melt with You</a></h5>
+                <p>Jennifer Dugan</p>
+                <p>$16.73</p>
+            </div>
+            <div class="col-4">
+                <a href=""><img src="images/romance-3.jpg" alt="So We Meet Again"></a>
+                <h5><a href="">So We Meet Again</a></h5>
+                <p>Suzanne Park</p>
+                <p>$14.87</p>
+            </div>
+            <div class="col-4">
+                <a href=""><img src="images/product-7.jpg" alt=""></a>
+                <h5><a href="">A Phở Love Story</a></h5>
+                <p>Loan Le</p>
+                <p>$18.59</p>
+            </div>
+        </div>
+        <div class="row row-3">
+            <div class="col-4">
+                <a href=""><img src="images/romance-5.jpg" alt="Love, Unscripted"></a>
+                <H5><a href="">Love, Unscripted</a></H5>
+                <p>Owen Nicholls </p>
+                <p>$17.00</p>
+            </div>
+            <div class="col-4">
+                <a href=""><img src="images/romance-6.jpg" alt="Romantic Comedy (Reese's Book Club)"></a>
+                <h5><a href="">Romantic Comedy (Reese's Book Club)</a></h5>
+                <p>Curtis Sittenfeld</p>
+                <p>$26.04</p>
+            </div>
+            <div class="col-4">
+                <a href=""><img src="images/romance-7.jpg" alt="A Court of Thorns and Roses"></a>
+                <h5><a href="">A Court of Thorns and Roses</a></h5>
+                <p>Sarah J. Maas</p>
+                <p>$17.67</p>
+            </div>
+            <div class="col-4">
+                <a href=""><img src="images/romance-8.jpg" alt="The Royal We"></a>
+                <h5><a href="">The Royal We</a></h5>
+                <p>Heather Cocks</p>
+                <p>$15.80</p>
+            </div>
+        </div>
+        <div class="row row-2">
+            <h2 class="title title-2">Science Fiction</h2>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <a href=""><img src="images/scifi-1.jpg" alt="Ender's Game"></a>
+                <h5><a href="">Ender's Game</a></h5>
+                <p>Orson Scott Card</p>
+                <p>$9.29</p>
+            </div>
+            <div class="col-4">
+                <a href=""><img src="images/scifi-2.jpg" alt="Ready Player One"></a>
+                <h5><a href="">Ready Player One</a></h5>
+                <p>Ernest Cline</p>
+                <p>$15.81</p>
+            </div>
+            <div class="col-4">
+                <a href=""><img src="images/scifi-3.jpg" alt="The Martian"></a>
+                <h5><a href="">The Martian</a></h5>
+                <p>Andy Weir</p>
+                <p>$15.81</p>
+            </div>
+            <div class="col-4">
+                <a href=""><img src="images/scifi-4.jpg" alt="Sea of Tranquility"></a>
+                <h5><a href="">Sea of Tranquility</a></h5>
+                <p>Emily St John Mandel</p>
+                <p>$23.25</p>
+            </div>
+        </div>
+        <div class="row row-3">
+            <div class="col-4">
+                <a href=""><img src="images/scifi-5.jpg" alt="This Is How You Lose the Time War"></a>
+                <h5><a href="">This Is How You Lose the Time War</a></h5>
+                <p>Amal El-Mohtar & 1 more</p>
+                <p>$14.87</p>
+            </div>
+            <div class="col-4">
+                <a href=""><img src="images/scifi-6.jpg" alt="The Wall"></a>
+                <h5><a href="">The Wall</a></h5>
+                <p>Marlen Haushofer & 2 more</p>
+                <p>$15.76</p>
+            </div>
+            <div class="col-4">
+                <a href=""><img src="images/scifi-7.jpg" alt="How High We Go in the Dark"></a>
+                <h5><a href="">How High We Go in the Dark</a></h5>
+                <p>Sequoia Nagamatsu</p>
+                <p>$26.03</p>
+            </div>
+            <div class="col-4">
+                <a href=""><img src="images/scifi-8.jpg" alt="Chain Gang All Stars"></a>
+                <h5><a href="">Chain Gang All Stars</a></h5>
+                <p>Nana Kwame Adjei-Brenyah </p>
+                <p>$25.11</p>
+            </div>
+        </div>
+        <div class="row row-2">
+            <h2 class="title title-2">Magical Realism</h2>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <a href=""><img src="images/magicalrealism-1.jpg" alt="1Q84"></a>
+                <h5><a href="">1Q84</a></h5>
+                <p>Haruki Murakami</p>
+                <p>$18.60</p>
+            </div>
+            <div class="col-4">
+                <a href=""><img src="images/magicalrealism-2.jpg" alt="The Cartographers"></a>
+                <h5><a href="">The Cartographers</a></h5>
+                <p>Peng Shepherd</p>
+                <p>$26.03</p>
+            </div>
+            <div class="col-4">
+                <a href="product-page.html"><img src="images/product-5.jpg"
+                        alt="Hard-boiled Wonderland and The end of the World"></a>
+                <h5><a href="product-page.html">Hard-boiled Wonderland and The end of the World</a></h5>
+                <p>Haruki Murakami</p>
+                <p>$16.74</p>
+            </div>
+            <div class="col-4">
+                <a href=""><img src="images/magicalrealism-3.jpg" alt="The Wind-Up Bird Chronicle"></a>
+                <h5><a href="">The Wind-Up Bird Chronicle</a></h5>
+                <p>Haruki Murakami</p>
+                <p>$17.67</p>
+            </div>
+        </div>
+        <div class="row row-3">
+            <div class="col-4">
+                <a href=""><img src="images/magicalrealism-4.jpg" alt="Vagabonds!"></a>
+                <h5><a href="">Vagabonds!</a></h5>
+                <p>Eloghosa Osunde</p>
+                <p>$26.04</p>
+            </div>
+            <div class="col-4">
+                <a href=""><img src="images/magicalrealism-5.jpg" alt="The Witch's Heart"></a>
+                <h5><a href="">The Witch's Heart</a></h5>
+                <p>Genevieve Gornichec</p>
+                <p>$15.81</p>
+            </div>
+            <div class="col-4">
+                <a href=""><img src="images/magicalrealism-6.jpg" alt="The Boy with a Bird in His Chest"></a>
+                <h5><a href="">The Boy with a Bird in His Chest</a></h5>
+                <p>Emme Lund</p>
+                <p>$15.81</p>
+            </div>
+            <div class="col-4">
+                <a href=""><img src="images/magicalrealism-7.jpg" alt="The Curator"></a>
+                <h5><a href="">The Curator</a></h5>
+                <p>Owen King</p>
+                <p>$26.96</p>
+            </div>
+        </div>
+        <div class="row">
+            <a href="#top" class="btn" id="button">Back to top &#8593;</a>
+        </div>
+
+    </div>
+    <footer>
+        <div class="container footer">
+            <div class="row">
+                <div class="f-col-1">
+                    <h3>Download our app</h3>
+                    <p>Download our app for android and ios mobile phone</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png" alt="">
+                        <img src="images/app-store.png" alt="">
+                    </div>
+                </div>
+                <div class="f-col-1">
+                    <h3>About RMIT</h3>
+                    <iframe width="300" height="100" src="https://www.youtube.com/embed/N7UTS7en9uY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="f-col-3">
+                    <h3>Useful links</h3>
+                    <ul>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="contact.html">Contact us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2023 - LeBao</p>
+        </div>
+    </footer>
+</body>
+<script src="scripts.js"></script>
+
+</html>

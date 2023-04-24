@@ -1,0 +1,167 @@
+<!-- 
+    RMIT University Vietnam
+    Course: COSC2430 Web Programming
+    Semester: 2023A
+    Assessment: Assignment 1
+    Author: Le Viet Bao
+    ID: s3979654
+    Acknowledgement: 
+    https://bookshop.org/
+    https://www.youtube.com/watch?v=bk3Y4heVdFs&ab_channel=Mr.WebDesigner
+    https://www.youtube.com/watch?v=yQimoqo0-7g&t=2s&ab_channel=EasyTutorials
+    https://www.30secondsofcode.org/css/s/hover-underline-animation/
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Hard-boiled Wonderland and The end of the World | RMIT Bookstore</title>
+</head>
+
+<body>
+
+    <p id="top"></p>
+    <div class="container products">
+        <nav>
+            <div class="logo">
+                <a href=""><img src="images/RMIT-bookstore-black.png" alt=""></a>
+            </div>
+
+            <input type="checkbox" id="menu-bar">
+            <label for="menu-bar">&#9776;</label>
+
+            <div class="navbar">
+                <ul>
+                    <li class="hover-underline-animation"><a href="index.html">Home</a></li>
+                    <li class="hover-underline-animation"><a href="#">Categories &#9660;</a>
+                        <ul>
+                            <li class="bounce"><a href="fiction.html">Fiction</a></li>
+                            <li class="bounce"><a href="nonfiction.html">Non-fiction</a></li>
+                            <li class="bounce"><a href="reference.html">Reference books</a></li>
+                            <li class="bounce"><a href="sale.html">Sale</a></li>
+                        </ul>
+                    </li>
+                    <li class="hover-underline-animation"><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!-- Single product details -->
+    <div class="smallcontainer single-product">
+        <div class="row">
+            <div class="col-2">
+                <img src="images/gallery-1.jpg" alt="" width="100%" id="productImg">
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="images/gallery-1.jpg" width="100%" alt="" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/gallery-2.jpg" width="100%" alt="" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/gallery-3.jpg" width="100%" alt="" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/gallery-4.jpg" width="100%" alt="" class="small-img">
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <p><a href="">Home</a> > <a href="">Fiction</a> > <a href="">Magical Realism</a> > </p>
+                <br>
+                <h2>Hard-boiled Wonderland and The end of the World</h2>
+                <br>
+                <p> by Haruki Murakami</p>
+                <h4>$16.74</h4>
+                <input type="number" value="1" min="1">
+                <a href="" class="btn">Add to cart</a>
+                <h3>Book details</h3>
+                <br>
+                <h5>Hyperkinetic and relentlessly inventive, Hard-Boiled Wonderland and the End of the World is Haruki
+                    Murakami's deep dive into the very nature of consciousness.</h5>
+                <br>
+                <small>Across two parallel narratives, Murakami draws readers into a mind-bending universe in which
+                    Lauren Bacall, Bob Dylan, a split-brained data processor, a deranged scientist, his shockingly
+                    undemure granddaughter, and various thugs, librarians, and subterranean monsters collide to dazzling
+                    effect. What emerges is a novel that is at once hilariously funny and a deeply serious meditation on
+                    the nature and uses of the mind.</small>
+            </div>
+        </div>
+    </div>
+    <!-- title -->
+    <div class="smallcontainer">
+        <div class="row row-2">
+            <h2 class="title title-2">Related Products</h2>
+        </div>
+    </div>
+    <!-- products -->
+    <div class="smallcontainer">
+        <div class="row">
+            <div class="col-4">
+                <a href=""><img src="images/magicalrealism-1.jpg" alt="1Q84"></a>
+                <h5><a href="">1Q84</a></h5>
+                <p>Haruki Murakami</p>
+                <p>$18.60</p>
+            </div>
+            <div class="col-4">
+                <a href=""><img src="images/magicalrealism-2.jpg" alt="The Cartographers"></a>
+                <h5><a href="">The Cartographers</a></h5>
+                <p>Peng Shepherd</p>
+                <p>$26.03</p>
+            </div>
+            <div class="col-4">
+                <a href="product-page.html"><img src="images/product-5.jpg"
+                        alt="Hard-boiled Wonderland and The end of the World"></a>
+                <h5><a href="product-page.html">Hard-boiled Wonderland and The end of the World</a></h5>
+                <p>Haruki Murakami</p>
+                <p>$16.74</p>
+            </div>
+            <div class="col-4">
+                <a href=""><img src="images/magicalrealism-3.jpg" alt="The Wind-Up Bird Chronicle"></a>
+                <h5><a href="">The Wind-Up Bird Chronicle</a></h5>
+                <p>Haruki Murakami</p>
+                <p>$17.67</p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <a href="#top" class="btn" id="button">Back to top &#8593;</a>
+    </div>
+    <footer>
+        <div class="container footer">
+            <div class="row">
+                <div class="f-col-1">
+                    <h3>Download our app</h3>
+                    <p>Download our app for android and ios mobile phone</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png" alt="">
+                        <img src="images/app-store.png" alt="">
+                    </div>
+                </div>
+                <div class="f-col-1">
+                    <h3>About RMIT</h3>
+                    <iframe width="300" height="100" src="https://www.youtube.com/embed/N7UTS7en9uY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="f-col-3">
+                    <h3>Useful links</h3>
+                    <ul>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="contact.html">Contact us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2023 - LeBao</p>
+        </div>
+    </footer>
+</body>
+<script src="scripts.js"></script>
+
+</html>

@@ -1,0 +1,133 @@
+<!-- 
+    RMIT University Vietnam
+    Course: COSC2430 Web Programming
+    Semester: 2023A
+    Assessment: Assignment 1
+    Author: Le Viet Bao
+    ID: s3979654
+    Acknowledgement: 
+    https://bookshop.org/
+    https://www.youtube.com/watch?v=bk3Y4heVdFs&ab_channel=Mr.WebDesigner
+    https://www.youtube.com/watch?v=yQimoqo0-7g&t=2s&ab_channel=EasyTutorials
+    https://www.30secondsofcode.org/css/s/hover-underline-animation/
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Sales | RMIT Bookstore</title>
+</head>
+
+<body>
+    <p id="top"></p>
+    <div class="container products">
+        <nav>
+            <div class="logo">
+                <a href=""><img src="images/RMIT-bookstore-black.png" alt=""></a>
+            </div>
+
+            <input type="checkbox" id="menu-bar">
+            <label for="menu-bar">&#9776;</label>
+
+            <div class="navbar">
+                <ul>
+                    <li class="hover-underline-animation"><a href="index.html">Home</a></li>
+                    <li class="hover-underline-animation"><a href="#">Categories &#9660;</a>
+                        <ul>
+                            <li class="bounce"><a href="fiction.html">Fiction</a></li>
+                            <li class="bounce"><a href="nonfiction.html">Non-fiction</a></li>
+                            <li class="bounce"><a href="reference.html">Reference books</a></li>
+                            <li class="bounce"><a href="sale.html">Sale</a></li>
+                        </ul>
+                    </li>
+                    <li class="hover-underline-animation"><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <h1 id="categories">On Sale</h1>
+    <div class="smallcontainer sml-cnt">
+        <div class="row row-2">
+            <h2 class="title title-2">Great reads for great price</h2>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <a href=""><img src="images/product-1.jpg" alt="Like a House on fire"></a>
+                <H5><a href="">Like a House on fire</a></H5>
+                <p>Lauren McBrayer</p>
+                <p>
+                    <div class="discount">$24.18</div>
+                    <strong>$19.99</strong>
+                </p>
+            </div>
+            <div class="col-4">
+                <a href=""><img src="images/product-2.jpg" alt="Tomorrow and Tomorrow and Tomorrow"></a>
+                <h5><a href="">Tomorrow and Tomorrow and Tomorrow</a></h5>
+                <p>Gabrielle Zevin</p>
+                <p>
+                    <div class="discount">$26.04</div>
+                    <strong>$19.99</strong>
+                </p>
+            </div>
+            <div class="col-4">
+                <a href=""><img src="images/product-3.jpg" alt="The Doloriad"></a>
+                <h5><a href="">The Doloriad</a></h5>
+                <p>Missouri Williams</p>
+                <p>
+                    <div class="discount">$15.81</div>
+                    <strong> $9.99</strong>
+                </p>
+            </div>
+            <div class="col-4">
+                <a href=""><img src="images/product-4.jpg" alt="Fairy Tale"></a>
+                <h5><a href="">Fairy Tale</a></h5>
+                <p>Stephen King</p>
+                <p>
+                    <div class="discount">$30.23</div>
+                    <strong>$15.22</strong>
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <a href="#top" class="btn" id="button">Back to top &#8593;</a>
+        </div>
+
+    </div>
+    <footer>
+        <div class="container footer">
+            <div class="row">
+                <div class="f-col-1">
+                    <h3>Download our app</h3>
+                    <p>Download our app for android and ios mobile phone</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png" alt="">
+                        <img src="images/app-store.png" alt="">
+                    </div>
+                </div>
+                <div class="f-col-1">
+                    <h3>About RMIT</h3>
+                    <iframe width="300" height="100" src="https://www.youtube.com/embed/N7UTS7en9uY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="f-col-3">
+                    <h3>Useful links</h3>
+                    <ul>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="contact.html">Contact us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2023 - LeBao</p>
+        </div>
+    </footer>
+</body>
+<script src="scripts.js"></script>
+
+</html>

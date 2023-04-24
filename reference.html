@@ -1,0 +1,148 @@
+<!-- 
+    RMIT University Vietnam
+    Course: COSC2430 Web Programming
+    Semester: 2023A
+    Assessment: Assignment 1
+    Author: Le Viet Bao
+    ID: s3979654
+    Acknowledgement: 
+    https://bookshop.org/
+    https://www.youtube.com/watch?v=bk3Y4heVdFs&ab_channel=Mr.WebDesigner
+    https://www.youtube.com/watch?v=yQimoqo0-7g&t=2s&ab_channel=EasyTutorials
+    https://www.30secondsofcode.org/css/s/hover-underline-animation/
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Reference books | RMIT Bookstore</title>
+</head>
+
+<body>
+    <p id="top"></p>
+    <div class="container products">
+        <nav>
+            <div class="logo">
+                <a href=""><img src="images/RMIT-bookstore-black.png" alt=""></a>
+            </div>
+
+            <input type="checkbox" id="menu-bar">
+            <label for="menu-bar">&#9776;</label>
+
+            <div class="navbar">
+                <ul>
+                    <li class="hover-underline-animation"><a href="index.html">Home</a></li>
+                    <li class="hover-underline-animation"><a href="#">Categories &#9660;</a>
+                        <ul>
+                            <li class="bounce"><a href="fiction.html">Fiction</a></li>
+                            <li class="bounce"><a href="nonfiction.html">Non-fiction</a></li>
+                            <li class="bounce"><a href="reference.html">Reference books</a></li>
+                            <li class="bounce"><a href="sale.html">Sale</a></li>
+                        </ul>
+                    </li>
+                    <li class="hover-underline-animation"><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <h1 id="categories">Reference books</h1>
+    <div class="smallcontainer sml-cnt">
+        <div class="row row-2">
+            <h2 class="title title-2">Dictionary</h2>
+        </div>
+        <div class="row">
+            <div class="col-4"><img src="images/product-13.jpg" alt="">
+                <h5><a href="">The Official Scrabble(r) Players Dictionary</a></h5>
+                <p>Merriam-Webster</p>
+                <p>$8.84</p>
+            </div>
+            <div class="col-4"><img src="images/product-14.jpg" alt="">
+                <h5><a href="">The Merriam-Webster Dictionary</a></h5>
+                <p>Merriam-Webster</p>
+                <p>$6.98</p>
+            </div>
+            <div class="col-4"><img src="images/product-15.jpg" alt="">
+                <h5><a href="">
+                        Dictionary of Legal Terms: Definitions and Explanations for Non-Lawyers</a></h5>
+                <p>Steven H. Gifis</p>
+                <p>$18.59</p>
+            </div>
+            <div class="col-4"><img src="images/product-16.jpg" alt="">
+                <h5><a href="">Color Oxford English Dictionary</a></h5>
+                <p>Oxford Languages</p>
+                <p>$12.04</p>
+            </div>
+        </div>
+        <div class="row row-3">
+            <div class="col-4">
+                <a href=""><img src="images/dict-1.jpg" alt="Knitovation Stitch Dictionary: 150+ Modern Colorwork Knitting Motifs
+                    "></a>
+                <H5><a href="">Knitovation Stitch Dictionary: 150+ Modern Colorwork Knitting Motifs
+                    </a></H5>
+                <p>Andrea Rangel</p>
+                <p>$25.11</p>
+            </div>
+            <div class="col-4">
+                <a href=""><img src="images/dict-2.jpg" alt="Merriam-Webster's Dictionary of Law"></a>
+                <h5><a href="">Merriam-Webster's Dictionary of Law</a></h5>
+                <p>Merriam-Webster</p>
+                <p>$15.76</p>
+            </div>
+            <div class="col-4">
+                <a href=""><img src="images/dict-3.jpg"
+                        alt="Comprehensive English-Yiddish Dictionary: Revised and Expanded"></a>
+                <h5><a href="">Comprehensive English-Yiddish Dictionary: Revised and Expanded</a></h5>
+                <p>Gitl Schaechter-Viswanath & 1 more</p>
+                <p>$35.00</p>
+            </div>
+            <div class="col-4"><a href=""><img src="images/dict-4.jpg"
+                        alt="Dictionary of Word Origins: The Histories of More Than 8,000 English-Language Words (Revised)"></a>
+                <h5><a href="">Dictionary of Word Origins: The Histories of More Than 8,000 English-Language Words
+                        (Revised)</a></h5>
+                <p>John Ayto</p>
+                <p>$14.95</p>
+            </div>
+        </div>
+        <div class="row">
+            <a href="#top" class="btn" id="button">Back to top &#8593;</a>
+        </div>
+
+    </div>
+    <footer>
+        <div class="container footer">
+            <div class="row">
+                <div class="f-col-1">
+                    <h3>Download our app</h3>
+                    <p>Download our app for android and ios mobile phone</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png" alt="">
+                        <img src="images/app-store.png" alt="">
+                    </div>
+                </div>
+                <div class="f-col-1">
+                    <h3>About RMIT</h3>
+                    <iframe width="300" height="100" src="https://www.youtube.com/embed/N7UTS7en9uY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="f-col-3">
+                    <h3>Useful links</h3>
+                    <ul>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="contact.html">Contact us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2023 - LeBao</p>
+        </div>
+    </footer>
+</body>
+<script src="scripts.js"></script>
+
+</html>

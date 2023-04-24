@@ -1,0 +1,189 @@
+<!-- 
+    RMIT University Vietnam
+    Course: COSC2430 Web Programming
+    Semester: 2023A
+    Assessment: Assignment 1
+    Author: Le Viet Bao
+    ID: s3979654
+    Acknowledgement: 
+    https://bookshop.org/
+    https://www.youtube.com/watch?v=bk3Y4heVdFs&ab_channel=Mr.WebDesigner
+    https://www.youtube.com/watch?v=yQimoqo0-7g&t=2s&ab_channel=EasyTutorials
+    https://www.30secondsofcode.org/css/s/hover-underline-animation/
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Non-fiction | RMIT Bookstore</title>
+</head>
+
+<body>
+    <p id="top"></p>
+    <div class="container products">
+        <nav>
+            <div class="logo">
+                <a href=""><img src="images/RMIT-bookstore-black.png" alt=""></a>
+            </div>
+
+            <input type="checkbox" id="menu-bar">
+            <label for="menu-bar">&#9776;</label>
+
+            <div class="navbar">
+                <ul>
+                    <li class="hover-underline-animation"><a href="index.html">Home</a></li>
+                    <li class="hover-underline-animation"><a href="#">Categories &#9660;</a>
+                        <ul>
+                            <li class="bounce"><a href="fiction.html">Fiction</a></li>
+                            <li class="bounce"><a href="nonfiction.html">Non-fiction</a></li>
+                            <li class="bounce"><a href="reference.html">Reference books</a></li>
+                            <li class="bounce"><a href="sale.html">Sale</a></li>
+                        </ul>
+                    </li>
+                    <li class="hover-underline-animation"><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <h1 id="categories">Non-Fiction</h1>
+    <div class="smallcontainer sml-cnt">
+        <div class="row row-2">
+            <h2 class="title title-2">Art & Photography</h2>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <a href=""><img src="images/art-1.jpg" alt="Woody Guthrie: Songs and Art * Words and Wisdom"></a>
+                <H5><a href="">Woody Guthrie: Songs and Art * Words and Wisdom</a></H5>
+                <p>Nora Guthrie & 1 more</p>
+                <p>$37.20</p>
+            </div>
+            <div class="col-4">
+                <a href=""><img src="images/art-2.jpg" alt="Feminist Worldmaking and the Moving Image"></a>
+                <h5><a href="">Feminist Worldmaking and the Moving Image</a></h5>
+                <p>Erika Balsom & 1 more</p>
+                <p>$37.15</p>
+            </div>
+            <div class="col-4">
+                <a href=""><img src="images/art-3.jpg" alt="Norman Rockwell: Drawings, 1911-1976"></a>
+                <h5><a href="">Norman Rockwell: Drawings, 1911-1976</a></h5>
+                <p>Jesse Kowalski & 2 more</p>
+                <p>$37.20</p>
+            </div>
+            <div class="col-4">
+                <a href=""><img src="images/art-4.jpg" alt="Outside the Palace of Me: Shary Boyle"></a>
+                <h5><a href="">Outside the Palace of Me: Shary Boyle</a></h5>
+                <p>Sequoia Miller & 2 more</p>
+                <p>$51.15</p>
+            </div>
+        </div>
+        <div class="row row-2">
+            <h2 class="title title-2">Self-help</h2>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <a href=""><img src="images/sh-1.jpg"
+                        alt="The 10x Rule: The Only Difference Between Success and Failure"></a>
+                <H5><a href="">The 10x Rule: The Only Difference Between Success and Failure</a></H5>
+                <p>Grant Cardone</p>
+                <p>$25.11</p>
+            </div>
+            <div class="col-4">
+                <a href=""><img src="images/sh-2.jpg"
+                        alt="The Tools: 5 Tools to Help You Find Courage, Creativity, and Willpower--And Inspire You to Live Life in Forward Motion"></a>
+                <h5><a href="">The Tools: 5 Tools to Help You Find Courage, Creativity, and Willpower--And Inspire You
+                        to Live Life in Forward Motion</a></h5>
+                <p>Phil Stutz & 1 more</p>
+                <p>$37.15</p>
+            </div>
+            <div class="col-4">
+                <a href=""><img src="images/sh-3.jpg"
+                        alt="Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones"></a>
+                <h5><a href="">Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones</a></h5>
+                <p>Jesse Kowalski & 2 more</p>
+                <p>$37.20</p>
+            </div>
+            <div class="col-4"><a href=""><img src="images/sh-4.jpg"
+                        alt="You Are a Badass(r): How to Stop Doubting Your Greatness and Start Living an Awesome Life"></a>
+                <h5><a href="">You Are a Badass(r): How to Stop Doubting Your Greatness and Start Living an Awesome
+                        Life</a></h5>
+                <p>Jen Sincero</p>
+                <p>$15.81</p>
+            </div>
+        </div>
+
+        <div class="row row-2">
+            <h2 class="title title-2">History</h2>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <a href=""><img src="images/his-1.jpg" alt="The Woman's Hour: The Great Fight to Win the Vote"></a>
+                <h5><a href="">The Woman's Hour: The Great Fight to Win the Vote</a></h5>
+                <p>Elaine Weiss</p>
+                <p>$16.74</p>
+            </div>
+            <div class="col-4">
+                <a href=""><img src="images/his-2.jpg"
+                        alt="Why They Marched: Untold Stories of the Women Who Fought for the Right to Vote"></a>
+                <h5><a href="">Why They Marched: Untold Stories of the Women Who Fought for the Right to Vote</a></h5>
+                <p>Susan Ware</p>
+                <p>$26.95</p>
+            </div>
+            <div class="col-4">
+                <a href=""><img src="images/his-3.jpg"
+                        alt="Virtual Equality: The Mainstreaming of Gay and Lesbian Liberation"></a>
+                <h5><a href="">Virtual Equality: The Mainstreaming of Gay and Lesbian Liberation</a></h5>
+                <p>Urvashi Vaid</p>
+                <p>$20.00</p>
+            </div>
+            <div class="col-4">
+                <a href=""><img src="images/his-4.jpg" alt="Transgender History: The Roots of Today's Revolution
+                    "></a>
+                <h5><a href="">Transgender History: The Roots of Today's Revolution
+                    </a></h5>
+                <p>Susan Stryker</p>
+                <p>$17.66</p>
+            </div>
+        </div>
+        <div class="row">
+            <a href="#top" class="btn" id="button">Back to top &#8593;</a>
+        </div>
+
+    </div>
+    <footer>
+        <div class="container footer">
+            <div class="row">
+                <div class="f-col-1">
+                    <h3>Download our app</h3>
+                    <p>Download our app for android and ios mobile phone</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png" alt="">
+                        <img src="images/app-store.png" alt="">
+                    </div>
+                </div>
+                <div class="f-col-1">
+                    <h3>About RMIT</h3>
+                    <iframe width="300" height="100" src="https://www.youtube.com/embed/N7UTS7en9uY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="f-col-3">
+                    <h3>Useful links</h3>
+                    <ul>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="contact.html">Contact us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2023 - LeBao</p>
+        </div>
+    </footer>
+</body>
+<script src="scripts.js"></script>
+
+</html>
